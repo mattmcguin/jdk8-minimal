@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-slim
 
 # Install goodies
-RUN apt-get update && apt-get install -y gnupg jq curl netcat wget
+RUN apt-get update && apt-get install -y gnupg jq curl netcat wget bsdmainutils git
 
 # Install Google Chrome
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -
