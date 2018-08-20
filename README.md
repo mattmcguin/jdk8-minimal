@@ -1,0 +1,1 @@
+Availble on [Docker Hub](https://hub.docker.com/r/pivotalservices/jdk8-minimal/) as the `pivotalservices/jdk8-minimal` image. This docker image can be used to run JDK8 based builds that might want to run headless chromedriver based tests.
